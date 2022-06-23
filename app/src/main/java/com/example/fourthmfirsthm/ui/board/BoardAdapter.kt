@@ -38,7 +38,7 @@ class BoardAdapter(val context: Context, val navController: NavController) :
     inner class BoardViewHolder(private var binding: ItemBoardBinding) :
         RecyclerView.ViewHolder(binding.root) {
         fun bind(board: Board) {
-            binding.imageView.setImageResource(board.imageView)
+            binding.animationView.setAnimation(board.lottie)
             binding.textTitle.text = board.title
             binding.textDesc.text = board.description
 

@@ -34,9 +34,9 @@ class BoardFragment : Fragment() {
         activity?.onBackPressedDispatcher?.addCallback(viewLifecycleOwner) {
             activity?.finish()
         }
-        adapter.addItem(Board(R.drawable.ic_board_news1, "Новости", "Board 1"))
-        adapter.addItem(Board(R.drawable.ic_board_news2, "Газета", "Board 2"))
-        adapter.addItem(Board(R.drawable.ic_board_news3, "Канал", "Board 3"))
+        adapter.addItem(Board(R.raw.newslottie1, "Новости", "Board 1"))
+        adapter.addItem(Board(R.raw.newslottie2, "Газета", "Board 2"))
+        adapter.addItem(Board(R.raw.newslottie3, "Канал", "Board 3"))
 
         /*val wormDotsIndicator = bindingItemBoardBinding.wormDotsIndicator //точки...
         wormDotsIndicator.attachTo(binding.viewPager)*/

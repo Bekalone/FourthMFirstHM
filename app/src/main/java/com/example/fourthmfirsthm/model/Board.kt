@@ -1,7 +1,9 @@
 package com.example.fourthmfirsthm.model
 
+import com.airbnb.lottie.LottieAnimationView
+
 data class Board(
-    var imageView: Int,
+    var lottie: Int,
     var title: String,
     var description: String
 )

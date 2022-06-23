@@ -57,6 +57,7 @@ class NewsAdapter() :
     }
 
     fun getData(): ArrayList<News> {
+        notifyDataSetChanged()
         return data
     }
 
@@ -65,7 +66,7 @@ class NewsAdapter() :
         notifyItemRemoved(position)
     }
 
-    fun addItems(list: ArrayList<News>) {
+    fun setList(list: ArrayList<News>) {
         this.data = list
         notifyDataSetChanged()
 

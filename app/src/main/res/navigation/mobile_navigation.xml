@@ -37,5 +37,10 @@
         android:name="com.example.fourthmfirsthm.ui.board.BoardFragment"
         android:label="fragment_board"
         tools:layout="@layout/fragment_board" />
+    <fragment
+        android:id="@+id/authFragment"
+        android:name="com.example.fourthmfirsthm.ui.auth.AuthFragment"
+        android:label="fragment_auth"
+        tools:layout="@layout/fragment_auth" />
 
 </navigation>

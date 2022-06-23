@@ -44,11 +44,9 @@ class NewsFragment : Fragment() {
     }
 
     private fun save() {
-
         val text = binding.editText.text.toString()
         val news = News(0, text, System.currentTimeMillis())
         App.database.newsDao().insert(news)
-
         findNavController().navigateUp()
     }
 

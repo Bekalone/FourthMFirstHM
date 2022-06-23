@@ -44,7 +44,6 @@ class ProfileFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         initListeners()
-        binding.editText.setText(Prefs(requireContext()).getText())
     }
 
     private fun initListeners() {
@@ -58,7 +57,6 @@ class ProfileFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
-        Prefs(requireContext()).saveText(binding.editText.text.toString())
         _binding = null
     }
 }

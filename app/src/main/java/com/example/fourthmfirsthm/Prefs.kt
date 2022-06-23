@@ -14,11 +14,5 @@ class Prefs(context: Context) {
         return preferences.getBoolean("isShow", false)
     }
 
-    fun saveText(text: String){
-        preferences.edit().putString("getText",text).commit()
-    }
 
-    fun getText(): String? {
-        return preferences.getString("getText", "")
-    }
 }
