@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/fragment_auth.xml" value="0.25" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/fragment_board.xml" value="0.25" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/fragment_home.xml" value="0.12158054711246201" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/fragment_news.xml" value="0.25" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Notnik/AndroidStudioProjects/4 month task/FourthMFirstHM/app/src/main/res/layout/item_board.xml" value="0.25" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/FourthMFirstHM/app/src/main/res/drawable/bg_profile.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/FourthMFirstHM/app/src/main/res/drawable/ic_add.xml" value="0.1595" />
         <entry key="..\:/Users/Notnik/AndroidStudioProjects/FourthMFirstHM/app/src/main/res/drawable/ic_add_a_photo.xml" value="0.1595" />

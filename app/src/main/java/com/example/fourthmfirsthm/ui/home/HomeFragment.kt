@@ -67,13 +67,13 @@ class HomeFragment : Fragment() {
                     tempArrayList.addAll(list)
                     adapter!!.notifyDataSetChanged()
                 }*/
-               val list = newText?.let { App.database.newsDao().getSearch(it) }
+                val list = newText?.let { App.database.newsDao().getSearch(it) }
                 adapter.setList(list as ArrayList<News>)
                 return false
             }
         })
 
-      onClickListenerRewrite()
+        onClickListenerRewrite()
         onClickListenerAlert()
     }
 

@@ -38,8 +38,7 @@ class BoardFragment : Fragment() {
         adapter.addItem(Board(R.raw.newslottie2, "Газета", "Board 2"))
         adapter.addItem(Board(R.raw.newslottie3, "Канал", "Board 3"))
 
-        /*val wormDotsIndicator = bindingItemBoardBinding.wormDotsIndicator //точки...
-        wormDotsIndicator.attachTo(binding.viewPager)*/
+        binding.wormDotsIndicator.setViewPager2(binding.viewPager)
         binding.textSkip.setOnClickListener {
             Prefs(requireContext()).saveState()
             findNavController().navigateUp()
